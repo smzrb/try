@@ -111,3 +111,23 @@ body{
 
         text-align: center;
     }
+
+
+
+    
+/* responsive starts here */
+
+@media(max-width:1030px){
+
+    .card{
+        width: 260px;
+    }
+}
+@media(max-width:920px) {
+    .cards {
+        flex-direction: column;
+    }
+    
+    .card{
+        width: 300px;
+}
